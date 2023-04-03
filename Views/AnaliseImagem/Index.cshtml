@@ -1,0 +1,14 @@
+﻿
+    <form method="post" enctype="multipart/form-data">
+
+<input type="file"
+       id="files" name="files"
+       accept="image/png, image/jpeg">
+
+       <input type="hidden" name="checkAnalyze" id="checkAnalyze"  value="true" />
+       <button type="submit" value="Submit">Analisar</button>
+
+       </form>
+
+<img src="@ViewBag.Imagem" width = '200' height = '200'/>
+@ViewBag.Resultado
